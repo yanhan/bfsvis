@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Breadth First Search Visualization</title>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.3.0/buttons-min.css">
+    <link rel="stylesheet" href="style.min.css">
+    <link rel="stylesheet" href="app.min.css">
+  </head>
+
+  <body>
+    <div id="about">
+      <p>
+        A visualization &quot;tool&quot; for aiding understanding of the
+        Breadth First Search algorithm.
+      </p>
+      <p>
+        Inspired by Dr. Steven Halim's Algorithm Visualization project at:
+        <a href="http://www.comp.nus.edu.sg/~stevenha/visualization/" target="_blank">
+        http://www.comp.nus.edu.sg/~stevenha/visualization/
+        </a>
+      </p>
+      <p>
+        For more information on the Breadth First Search algorithm, please
+        visit:
+        <ul>
+          <li>
+            <a href="http://community.topcoder.com/tc?module=Static&d1=tutorials&d2=graphsDataStrucs2#breadth" target="_blank">
+              Topcoder Tutorial
+            </a>
+          </li>
+          <li>
+            <a href="http://en.wikipedia.org/wiki/Breadth-first_search" target="_blank">
+              Wikipedia
+            </a>
+          </li>
+        </ul>
+      </p>
+      <p>
+        Alternatively, purchase a copy of Dr. Steven Halim's
+        <a href="https://sites.google.com/site/stevenhalim/" target="_blank">
+          Competitive Programming 3: The New Lower Bound of Programming Contests</a>
+        and read Chapter 4.2.2. Check out my brief review of the 2nd edition of
+        the book
+        <a href="http://blog.pangyanhan.com/bookshelf/" target="_blank">here</a>
+      </p>
+      <p>
+        By <a href="https://github.com/yanhan" target="_blank">Pang Yan Han</a>
+      </p>
+    </div>
+    <div id="queue"></div>
+    <div id="graph"></div>
+    <div class="marginTop5">
+      <button id="startbfs" class="pure-button pure-button-small">Start BFS</button>
+      <button id="toggleMode" class="pure-button pure-button-small"></button>
+      <button id="stepBack" class="pure-button pure-button-small">&lt;&lt;</button>
+      <button id="stepFwd" class="pure-button pure-button-small">&gt;&gt;</button>
+      <button id="pauseBtn" class="pure-button pure-button-small">Pause</button>
+      <button id="aboutBtn" class="pure-button pure-button-primary pure-button-small">About</button>
+    </div>
+    <div class="gist-readme">
+    </div>
+  </body>
+
+  <script data-main="app-min" src="require.js"></script>
+</html>
